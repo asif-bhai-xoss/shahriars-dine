@@ -193,3 +193,38 @@ Footer starts....................
   background-image: linear-gradient(to right, #fba24f, #fc8043);
   background: -webkit-linear-gradient(#fba24f, #ff1e1e);
 }
+
+/* 
+Footer ends....................
+/* 
+
+___________________________________________________________________________________________
+
+Font Section....................
+*/
+
+h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 78px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+p {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.876);
+  letter-spacing: 0.04em;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.three-items {
+  text-align: justify;
+}
