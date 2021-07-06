@@ -1,0 +1,76 @@
+body {
+  font-family: "Slabo 27px", serif;
+  margin: 0;
+}
+
+/* 
+Section 1 starts....................
+*/
+
+.flexible-container {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.link-button {
+  margin-top: 40px;
+  display: inline-block;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  background-image: linear-gradient(to left, orange, tomato);
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#section-one {
+  font-size: 20px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.half-width {
+  width: 50%;
+  padding: 2%;
+}
+
+.half-width img {
+  max-height: 600px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-half {
+  margin-left: 5%;
+}
+
+.right-half {
+  margin-right: 5%;
+  margin-top: 0;
+}
+
+/* 
+Section 1 ends....................
+/* 
+
+___________________________________________________________________________________________
+
+Section 2 starts....................
+*/
+
+#about-section {
+  background-image: url(images/about-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+}
