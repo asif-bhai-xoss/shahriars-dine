@@ -88,7 +88,7 @@ ________________________________________________________________________________
 Section 3 starts....................
 */
 
-.recipie {
+.text-item-position {
   text-align: center;
 }
 
@@ -122,14 +122,6 @@ Section 3 starts....................
   margin-top: 2px;
 }
 
-.food {
-  display: flex;
-  margin-left: 7%;
-  margin-right: 7%;
-  box-shadow: 0px 0px 20px 0px grey;
-  border-radius: 15px;
-}
-
 .food-card {
   display: flex;
   margin-left: 5%;
@@ -142,5 +134,62 @@ Section 3 ends....................
 
 ___________________________________________________________________________________________
 
-Section 4 starts....................
+Section 5 starts....................
 */
+
+.popularity {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  box-shadow: 0px 0px 20px 0px grey;
+  border-radius: 15px;
+}
+
+.subscriber-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  padding: 2%;
+}
+
+.subscriber-count h2 {
+  color: #18191f;
+  font-weight: bolder;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.subscriber-count p {
+  margin-top: 2px;
+}
+
+/* 
+Section 5 ends....................
+/* 
+
+___________________________________________________________________________________________
+
+Footer starts....................
+*/
+
+.footer {
+  background-color: black;
+  margin-top: 50px;
+  height: 256px;
+  width: 100%;
+}
+
+#footer-text-white {
+  color: white;
+}
+
+.footer-text {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: inline-block;
+  background-image: linear-gradient(to right, #fba24f, #fc8043);
+  background: -webkit-linear-gradient(#fba24f, #ff1e1e);
+}
