@@ -68,9 +68,13 @@ ________________________________________________________________________________
 Section 2 starts....................
 */
 
-#about-section {
-  background-image: url(images/about-background.jpg);
+#section-two {
+  background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: justify;
+}
+
+.image-border {
+  border-radius: 30px;
 }
